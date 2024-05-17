@@ -1,0 +1,33 @@
+initialize a git Repo: git init .
+
+Staging Area : git add
+Add everything in the current directory: git add .
+Add everything in the entire project to staging area: git add -A 
+
+REMOVE FILES FROM THE STAGING AREA
+Single file: git rm --cached <File name>
+All files in the staging area: git rm -r --cached
+
+
+Root Folder
+cd ..
+
+
+COMMIT
+git commit -m " message"
+
+Show Commit 
+* git log - show general details
+* git show <commit hash> show all changes that took place
+
+Terminal
+*cat<file name> - Display contents of a file
+*vi <file name> edit a file
+
+Differences in the working directory and the committed file 
+git diff
+
+Amend commit message
+git commit --amend -m <message>
+
+
