@@ -18,6 +18,7 @@ git commit -m " message"
 
 Show Commit 
 * git log - show general details
+*git log --oneline
 * git show <commit hash> show all changes that took place
 
 Terminal
@@ -45,7 +46,7 @@ Checkout to previous branch
 git checkout -
 
 Change to the main branch
-git branch -M main
+git branch -M (main)
 
 push to GitHub
 git push -u origin main
@@ -59,6 +60,16 @@ git checkout -b <branch name>
 
 DELETE A BRANCH
 git branch -d <branch name>
+
+
+*Its good practice to pull before you push
+When Merging conflict use VS Code or vi to rectify the conflicting code,
+either by keeping the current or choosing incoming changing or keeping both.
+
+Afterwards stage the change, commit then push.
+
+Rebase
+git pull --rebase 
 
 
 
