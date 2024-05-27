@@ -30,4 +30,38 @@ git diff
 Amend commit message
 git commit --amend -m <message>
 
+Show which branch you're on
+git branch - local 
+git branch -r - remote server
+git branch -a - all branches
+
+Create a New Branch
+git branch <branch name>
+
+Switch branches
+git checkout <branch name>
+
+Checkout to previous branch
+git checkout -
+
+Change to the main branch
+git branch -M main
+
+push to GitHub
+git push -u origin main
+Later Use git push
+
+GIT PUSH A BRANCH
+git push -u origin <branch name>
+
+Direct create and checkout to a branch
+git checkout -b <branch name>
+
+DELETE A BRANCH
+git branch -d <branch name>
+
+
+
+
+
 
