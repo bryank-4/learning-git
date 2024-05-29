@@ -1,4 +1,4 @@
-# Git and Github Corse
+# Git and Github Course
 
 ## Learning how to use git using amigoscode
 
